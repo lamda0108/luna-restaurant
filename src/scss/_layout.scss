@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-primary;
+    background: $color-black;
+}
+
+
+html {
+    font-size: 62.5%;
+
+    @media(max-width: 1300px) {
+        font-size: 55%;
+    }
+    @media(max-width: 900px){
+        font-size: 50%;
+    }
+    @media(max-width: 700px){
+        font-size: 40%;
+    }
+}
+
+
+//////preloader//////
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $color-black;
+    z-index: 9999;
+    @include flexCenter; 
+    img{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+
+//////title message//////
+.title {
+
+    img {
+        width: 9rem;
+        height: 9rem;
+        display: block;
+        margin: .5rem auto;
+        
+         @media(max-width: 414px){
+           width: 7rem;
+             height: 7rem;
+        }
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-family: $font-title;
+        color: $color-yellow-light;
+        margin: 2rem 0 5rem 0;
+        
+        @media(max-width: 414px){
+            margin: 2rem 0;
+        }
+    }
+}
+
+
+.btn-primary {
+    @include btnPrimary;
+
+    &:hover {
+        background: $color-yellow-light;
+        color: $color-black;
+    }
+}
+
+
+.checkbox:checked ~ .navbar-nav .navbar-nav-left {
+    left: 0;
+}
+
+.checkbox:checked ~ .navbar-nav .navbar-nav-right {
+    right: 0;
+}
+
+.checkbox:checked ~ .hamburger-menu .menu {
+    transform: rotateZ(90deg);
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-1 {
+    transform: rotateZ(-40deg);
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-2 {
+    opacity: 0;
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-3 {
+    transform: rotateZ(40deg);
+}
+
+/////animation/////
+.title-img, .welcome{
+    animation-duration: 2s;
+    animation-delay: 1.5;
+}
+

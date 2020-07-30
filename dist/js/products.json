@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "burger1",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/burger1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "burger2",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/burger2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "burger3",
+        "price": 5.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/burger3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "pasta1",
+        "price": 7.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/pasta1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "pasta2",
+        "price": 7.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/pasta2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "pasta3",
+        "price": 7.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/pasta3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "pizza1",
+        "price": 8.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/pizza1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "pizza2",
+        "price": 8.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/pizza2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "pizza3",
+        "price": 8.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/pizza3.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "10" },
+      "fields": {
+        "title": "salad1",
+        "price": 6.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/salad1.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "11" },
+      "fields": {
+        "title": "salad2",
+        "price": 6.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/salad2.jpg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": "12" },
+      "fields": {
+        "title": "salad3",
+        "price": 6.99,
+        "image": {
+          "fields": { "file": { "url": "./assets/images/menu/salad3.jpg" } }
+        }
+      }
+    }
+  ]
+}

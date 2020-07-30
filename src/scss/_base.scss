@@ -1,0 +1,39 @@
+$font-primary: "Lato", sans-serif;
+$font-title: "Dancing Script", cursive;
+$color-yellow: rgb(255, 182, 0);
+$color-yellow-light: #fff0cd;
+$color-black: rgb(13, 2, 33);
+$color-white: #fffaf2;
+
+@mixin btnPrimary {
+  padding: 5px 15px;
+  font-size: 2rem;
+  background: $color-yellow;
+  color: $color-black;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px $color-black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@mixin btnBlack {
+  padding: 5px 15px;
+  font-size: 2rem;
+  background: $color-black;
+  color: $color-yellow-light;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: none;
+}
+
+@mixin flexCenter($justify: center) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
+}
+
+@mixin boxHover {
+  color: $color-black;
+  background: $color-yellow-light;
+}
